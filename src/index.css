@@ -1,0 +1,51 @@
+:root {
+  font-family: 'Aptos', 'Segoe UI', sans-serif;
+  color: #1d2a23;
+  background: #f6f8f6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --ink: #1d2a23;
+  --muted: #68756d;
+  --line: #e3e9e4;
+  --green: #286c56;
+  --display: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f6f8f6;
+  background-image: radial-gradient(#dce4dd 0.65px, transparent 0.65px);
+  background-size: 18px 18px;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font: inherit;
+}
+
+::selection {
+  color: #fff;
+  background: #286c56;
+}
+
+#root {
+  min-height: 100vh;
+}
